@@ -1,9 +1,11 @@
 .accordion {
     .wrap {
         margin: 2px 0;
+        display: flex;
     }
     .accordion__descr {
         width: 500px;
+        height: 100%;
     }
     .accordion__btn {
         border: none;
