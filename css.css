@@ -1,0 +1,27 @@
+.accordion {
+    .wrap {
+        margin: 2px 0;
+    }
+    .accordion__descr {
+        width: 500px;
+    }
+    .accordion__btn {
+        border: none;
+        background-color: rgb(157, 240, 213);
+        cursor: pointer;
+        width: 500px;
+        height: 40px;
+        outline: none;
+        transition: all 0.4s;
+    }
+    .active, .accordion__btn:hover {
+        width: 500px;
+        background-color: rgb(72, 121, 104);
+    }
+    .panel {
+        padding: 0 20px;
+        overflow: hidden;
+        max-height: 10px;
+        transition: max-height 0.2s ease-out;
+    }
+}
